@@ -13,7 +13,7 @@ function App() {
         <div className="App">
             <Card>
                 {expenses.map(expense =>
-                    <ExpenseItem
+                    <ExpenseItem id={expense.id} key={expense.id}
                         title={expense.title}
                         amount={expense.amount}
                         date={expense.date.toISOString()} />
