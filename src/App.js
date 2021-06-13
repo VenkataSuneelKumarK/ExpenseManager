@@ -1,6 +1,7 @@
 import './App.scss';
 import Card from './components/Card/Card';
 
+import NewExpense from './components/NewExpense/NewExpense';
 import ExpenseItem from './components/ExpenseItem/ExpenseItem';
 
 function App() {
@@ -11,6 +12,10 @@ function App() {
     ]
     return (
         <div className="App">
+            <Card>
+                <NewExpense />
+            </Card>
+
             <Card>
                 {expenses.map(expense =>
                     <ExpenseItem id={expense.id} key={expense.id}

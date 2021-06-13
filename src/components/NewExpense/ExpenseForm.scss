@@ -1,0 +1,26 @@
+.new-expense_control {
+    label {
+        font-size: larger;
+        font-style: italic;
+        margin: 1rem;
+    }
+
+    input {
+        color: chocolate;
+        margin: 1rem;
+        border-radius: 0.2rem;
+        border: 0.1rem solid cadetblue;
+    }
+}
+
+.new-expense_actions {
+    display: flex;
+
+    button {
+        margin: 1rem auto;
+        border: 0.1rem solid burlywood;
+        border-radius: 1rem;
+        color: white;
+        background-color: coral;
+    }
+}
